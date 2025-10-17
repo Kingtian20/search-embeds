@@ -1,0 +1,46 @@
+{
+  "Sites": {
+    "example": {
+      "url": "https://www.example.com",
+      "description": "A placeholder website used for examples."
+    },
+    "google": {
+      "url": "https://www.google.com",
+      "description": "The world's most popular search engine."
+    },
+    "github": {
+      "url": "https://www.github.com",
+      "description": "A platform for hosting and sharing code repositories."
+    },
+    "youtube": {
+      "url": "https://www.youtube.com",
+      "description": "A video-sharing platform with billions of users."
+    },
+    "wikipedia": {
+      "url": "https://www.wikipedia.org",
+      "description": "A free online encyclopedia written collaboratively."
+    }
+  },
+  "Movies": {
+    "movie-1": {
+      "url": "https://www.google.com",
+      "description": "The world's most popular movie."
+    },
+    "movie-2": {
+      "url": "https://www.google.com",
+      "description": "The world's second most popular movie."
+    },
+    "movie-3": {
+      "url": "https://www.google.com",
+      "description": "The world's third most popular movie."
+    },
+    "movie-4": {
+      "url": "https://www.google.com",
+      "description": "The world's fourth most popular movie."
+    }
+  },
+  "meta": {
+    "version": "1.0",
+    "updated": "2025-10-13"
+  }
+}
