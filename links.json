@@ -1,42 +1,17 @@
-{
-  "sites": {
-    "Steal A Brainrot": {
-      "url": "https://sites.google.com/view/math-university/steal-a-brainrot",
-      "description": "A Brainrotted heist!"
-    },
-    "Run": {
-      "url": "https://sites.google.com/view/math-university/run",
-      "description": "Jump over hole's in the ground, and use diffrent characters for diffrent abilities!"
-    },
-    "GitHub": {
-      "url": "https://www.github.com",
-      "description": "A platform for hosting and sharing code repositories."
-    },
-    "YouTube": {
-      "url": "https://www.youtube.com",
-      "description": "A video-sharing platform with billions of users."
-    },
-    "Wikipedia": {
-      "url": "https://www.wikipedia.org",
-      "description": "A free online encyclopedia written collaboratively."
-    }
+[
+  {
+    "title": "Example Site",
+    "image": "https://via.placeholder.com/300x200.png?text=Example",
+    "link": "https://example.com"
   },
-  "movies": {
-    "Movie 1": {
-      "url": "https://www.google.com",
-      "description": "The world's most popular movie."
-    },
-    "Movie 2": {
-      "url": "https://www.google.com",
-      "description": "The world's second most popular movie."
-    },
-    "Movie 3": {
-      "url": "https://www.google.com",
-      "description": "The world's third most popular movie."
-    },
-    "Movie 4": {
-      "url": "https://www.google.com",
-      "description": "The world's fourth most popular movie."
-    }
+  {
+    "title": "Minecraft Wiki",
+    "image": "https://via.placeholder.com/300x200.png?text=Minecraft",
+    "link": "https://minecraft.wiki/"
+  },
+  {
+    "title": "YouTube",
+    "image": "https://via.placeholder.com/300x200.png?text=YouTube",
+    "link": "https://youtube.com"
   }
-}
+]
