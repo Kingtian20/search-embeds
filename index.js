@@ -1,44 +1,57 @@
-let fuse;
-let items = [];
+      const items = [
+        {
+          title: "Item One",
+          image: "https://via.placeholder.com/300?text=One",
+          url: "https://example.com/1",
+        },
+        {
+          title: "Item Two",
+          image: "https://via.placeholder.com/300?text=Two",
+          url: "https://example.com/2",
+        },
+        {
+          title: "Item Three",
+          image: "https://via.placeholder.com/300?text=Three",
+          url: "https://example.com/3",
+        },
+        {
+          title: "Item Four",
+          image: "https://via.placeholder.com/300?text=Four",
+          url: "https://example.com/4",
+        },
+        {
+          title: "Item Five",
+          image: "https://via.placeholder.com/300?text=Five",
+          url: "https://example.com/5",
+        },
+        { title: "Item Six", image: "idk.jpeg", url: "https://example.com/6" },
+      ];
 
-// Load JSON items
-fetch("items.json")
-  .then(res => res.json())
-  .then(data => {
-    items = data;
-    fuse = new Fuse(items, {
-      keys: ["title"],
-      threshold: 0.3
-    });
+      function loadItems(filteredItems = null) {
+        const grid = document.getElementById("grid");
+        grid.innerHTML = "";
+        (filteredItems || items).forEach((i) => {
+          grid.innerHTML += `
+        <a class="item" href="${i.url}" target="_blank">
+          <img src="${i.image}">
+          <div class="item-title">${i.title}</div>
+        </a>
+      `;
+        });
+      }
 
-    renderResults(items); // show all items at start
-  });
+      function fuzzySearch(query) {
+        const q = query.toLowerCase();
+        return items.filter((i) => i.title.toLowerCase().includes(q));
+      }
 
-// Perform fuzzy search
-function performSearch(query) {
-  if (!query.trim()) {
-    renderResults(items);
-    return;
-  }
+      document.addEventListener("DOMContentLoaded", () => {
+        const input = document.getElementById("i77q");
 
-  const results = fuse.search(query).map(r => r.item);
-  renderResults(results);
-}
+        input.addEventListener("input", () => {
+          const filtered = fuzzySearch(input.value);
+          loadItems(filtered);
+        });
 
-// Render grid
-function renderResults(results) {
-  const container = document.getElementById("results");
-  container.innerHTML = "";
-
-  results.forEach(item => {
-    const div = document.createElement("div");
-    div.className = "item";
-
-    div.innerHTML = `
-      <img src="${item.image}">
-      <a href="${item.link}">${item.title}</a>
-    `;
-
-    container.appendChild(div);
-  });
-}
+        loadItems();
+      });
