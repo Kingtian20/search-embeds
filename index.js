@@ -1,41 +1,64 @@
-const data = [
-    { title: "Discord", image: "https://cdn.jsdelivr.net/gh/Kingtian20/search-embeds@search/imgs/discord.png" },
-    { title: "YouTube", image: "https://cdn.jsdelivr.net/gh/Kingtian20/search-embeds@search/imgs/youtube.png" },
-    { title: "GitHub", image: "https://cdn.jsdelivr.net/gh/Kingtian20/search-embeds@search/imgs/github.png" },
-    { title: "Google", image: "https://cdn.jsdelivr.net/gh/Kingtian20/search-embeds@search/imgs/google.png" },
-    { title: "Twitter", image: "https://cdn.jsdelivr.net/gh/Kingtian20/search-embeds@search/imgs/twitter.png" },
+/* === SEARCH BAR ENGINE === */
+
+const items = [
+  {
+    title: "Item One",
+    image: "https://via.placeholder.com/300?text=One",
+    url: "https://example.com/1",
+  },
+  {
+    title: "Item Two",
+    image: "https://via.placeholder.com/300?text=Two",
+    url: "https://example.com/2",
+  },
+  {
+    title: "Item Three",
+    image: "https://via.placeholder.com/300?text=Three",
+    url: "https://example.com/3",
+  },
+  {
+    title: "Item Four",
+    image: "https://via.placeholder.com/300?text=Four",
+    url: "https://example.com/4",
+  },
+  {
+    title: "Item Five",
+    image: "https://via.placeholder.com/300?text=Five",
+    url: "https://example.com/5",
+  },
+  {
+    title: "Item Six",
+    image: "idk.jpeg",
+    url: "https://example.com/6",
+  },
 ];
 
-const results = document.getElementById("results");
-const searchInput = document.getElementById("searchInput");
+function loadItems(filteredItems = null) {
+  const grid = document.getElementById("itemsGrid");
+  grid.innerHTML = "";
 
-// Render items
-function render(items) {
-    results.innerHTML = "";
-    items.forEach(i => {
-        const box = document.createElement("div");
-        box.className = "item";
-
-        box.innerHTML = `
-            <img src="${i.image}">
-            <div class="title-overlay">${i.title}</div>
-        `;
-
-        results.appendChild(box);
-    });
+  (filteredItems || items).forEach((i) => {
+    grid.innerHTML += `
+      <a class="item-card" href="${i.url}" target="_blank">
+        <img src="${i.image}">
+        <div class="item-label">${i.title}</div>
+      </a>
+    `;
+  });
 }
 
-// Simple fuzzy search
 function fuzzySearch(query) {
-    query = query.toLowerCase();
-    return data.filter(item => item.title.toLowerCase().includes(query));
+  const q = query.toLowerCase();
+  return items.filter((i) => i.title.toLowerCase().includes(q));
 }
 
-// Initial render
-render(data);
+document.addEventListener("DOMContentLoaded", () => {
+  const input = document.getElementById("searchInput");
 
-// Live update
-searchInput.addEventListener("input", () => {
-    const value = searchInput.value.trim();
-    render(fuzzySearch(value));
+  input.addEventListener("input", () => {
+    const filtered = fuzzySearch(input.value);
+    loadItems(filtered);
+  });
+
+  loadItems();
 });
