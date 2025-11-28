@@ -137,7 +137,8 @@ const items = [
         { title: "Volley Random", image: "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/136.png", url: "https://sites.google.com/view/word-learning/gxmes/volley-random" },
         { title: "Worlds Hardest Game", image: "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/137.png", url: "https://sites.google.com/view/word-learning/gxmes/worlds-hardest-gxme" },
         { title: "War Of The Knights", image: "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/138.png", url: "https://sites.google.com/view/word-learning/gxmes/war-of-the-knights" },
-        { title: "Wrestle Bros", image: "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/139.png", url: "https://sites.google.com/view/word-learning/gxmes/wrestle-bros" }
+        { title: "Wrestle Bros", image: "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/139.png", url: "https://sites.google.com/view/word-learning/gxmes/wrestle-bros" },
+        { title: "10 Bullets", image: "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/140.png", url: "https://sites.google.com/view/word-learning/gxmes/10-bullets" }
       ];
 
 function loadItems(list = items) {
