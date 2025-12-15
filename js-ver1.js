@@ -654,6 +654,12 @@
           url: "https://sites.google.com/view/word-learning/gxmes/super-mario-63",
         },
         {
+          title: "Kindergarten 2",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/154.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/kindergarten-2",
+        },
+        {
           title: "Steal A Brainrot",
           image:
             "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/110.png",
@@ -736,6 +742,12 @@
           image:
             "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/123.png",
           url: "https://sites.google.com/view/word-learning/gxmes/tiny-fishing",
+        },
+        {
+          title: "Kindergarten",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/153.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/kindergarten",
         },
         {
           title: "Temple Run 2",
@@ -862,7 +874,163 @@
           image:
             "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/144.png",
           url: "https://sites.google.com/view/word-learning/gxmes/batter-up",
-        }
+        },
+        {
+          title: "Short Life",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/145.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/short-life",
+        },
+        {
+          title: "Territorial.io",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/146.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/territorial-io",
+        },
+        {
+          title: "1v1 Lol",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/147.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/1v1-lol",
+        },
+        {
+          title: "Hollow Knight",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/148.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/hollow-knight",
+        },
+        {
+          title: "Stickman Clash",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/149.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/stickman-clash",
+        },
+        {
+          title: "Subway Surfers: Barcelona",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/150.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/subway-surfers-barcelona",
+        },
+        {
+          title: "Kindergarten 3",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/155.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/kindergarten-3",
+        },
+        {
+          title: "Subway Surfers: Beijing",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/151.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/subway-surfers-beijing",
+        },
+        {
+          title: "Subway Surfers: Berlin",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/152.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/subway-surfers-berlin",
+        },
+        {
+          title: "Drift Hunters",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/156.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/drift-hunters",
+        },
+        {
+          title: "Getaway Shootout",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/157.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/getaway-shootout",
+        },
+        {
+          title: "10 Minutes Till Dawn",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/158.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/10-minutes-till-dawn",
+        },
+        {
+          title: "Jetpack Joyride",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/159.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/jetpack-joyride",
+        },
+        {
+          title: "Tower Of Hell",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/160.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/tower-of-hell",
+        },
+        {
+          title: "Tag 2",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/161.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/tag-2",
+        },
+        {
+          title: "Flappy Bird",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/162.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/flappy-bird",
+        },
+        {
+          title: "R. E. P. O.",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/163.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/r-e-p-o",
+        },
+        {
+          title: "Crossy Road",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/164.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/crossy-road",
+        },
+        {
+          title: "Mario Kart",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/165.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/mario-kart",
+        },
+        {
+          title: "The Legend of Zelda",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/166.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/the-legend-of-zelda",
+        },
+        {
+          title: "Portal",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/167.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/portal",
+        },
+        {
+          title: "Portal 2D",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/168.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/portal-2d",
+        },
+        {
+          title: "Terra",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/169.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/terra",
+        },
+        {
+          title: "Wheelie Bike",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/170.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/wheelie-bike",
+        },
+        {
+          title: "Megachess",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/171.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/megachess",
+        },
+        {
+          title: "Classic Chess",
+          image:
+            "https://raw.githubusercontent.com/Kingtian20/search-embeds/images/172.png",
+          url: "https://sites.google.com/view/word-learning/gxmes/classic-chess",
+        },
       ];
 
       function loadItems(list = items) {
@@ -871,11 +1039,11 @@
 
         list.forEach((i) => {
           grid.innerHTML += `
-      <a class="item" href="${i.url}" target="_blank">
-        <img src="${i.image}" alt="${i.title}">
-        <div class="item-title">${i.title}</div>
-      </a>
-    `;
+        <a class="item" href="${i.url}" target="_blank">
+          <img src="${i.image}">
+          <div class="item-title">${i.title}</div>
+        </a>
+      `;
         });
       }
 
@@ -888,9 +1056,15 @@
         const input = document.getElementById("search");
 
         input.addEventListener("input", () => {
-          const filtered = fuzzySearch(input.value);
-          loadItems(filtered);
+          const q = input.value.trim();
+
+          if (q === "") {
+            loadItems(items);
+            return;
+          }
+
+          loadItems(fuzzySearch(q));
         });
 
-        loadItems();
+        loadItems(items);
       });
